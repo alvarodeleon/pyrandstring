@@ -3,7 +3,7 @@
 import sys
 import random
 import os
-import pynotify
+import time
  
 class pyrandstring:
  
@@ -15,6 +15,10 @@ class pyrandstring:
 	def __init__(self):
 		self.length = 18
 		self.seed = 'all'
+
+	def getStringUnique(self):
+		return str(int(time.time())) + "_" + self.getString(16,'anum')
+		
  
 	def getString(self,length=None,seed=None):
 
@@ -66,3 +70,4 @@ class pyrandstring:
 		'0', '1' , '2', '3', '4', '5', '6', '7', '8', '9',
 		'!', '#', '$', '%', '&', '*', '+', ',', '-', '.', '/', '{', '|', '}', '~', '@']
  
+
