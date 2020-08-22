@@ -24,10 +24,11 @@ class pyrandstring:
 
 		if length is not None:
 			self.length = length
- 
+ 		
+ 		'''
 		if file is not None:
 			self.file = file
-
+		'''
 		if seed is None:
 			seed='all'
 		
