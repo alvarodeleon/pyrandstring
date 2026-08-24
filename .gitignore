@@ -1,0 +1,70 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging / build
+build/
+dist/
+sdist/
+wheels/
+develop-eggs/
+eggs/
+.eggs/
+parts/
+var/
+*.egg-info/
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit tests / coverage
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+nosetests.xml
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+.pytype/
+.ruff_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.claude/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# Obsidian vault / cloud-sync leftovers (this repo lives inside a synced vault)
+.obsidian/
+.trash/
+*.sync-conflict-*
+*[Cc]onflicted[ -]copy*
